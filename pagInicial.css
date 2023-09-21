@@ -1,0 +1,36 @@
+.logo {
+    float: left;
+    margin-left:200px;
+}
+
+.nome {
+    float: right;
+    color: rgb(93, 148, 194);
+    margin-top: 0.5cm;
+    margin-right: 13cm;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color: rgb(240, 252, 255);
+}
+
+#titulo{
+    color: rgb(93, 148, 194);
+}
+
+.imgcarrossel{
+    width: 1080px;
+    height: 1080px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin-left: 200px;
+}
