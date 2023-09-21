@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./pagAnimais.css" />
+    <title>Animais</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+          <div class="logo">
+              <img src="../imagens/logoAzul.png" alt="" style="width: 200px;">
+          </div>
+
+          <div class="nome">
+              <h1 id="nome">AUMIGOS SC</h1>
+          </div>
+
+          <div class="clear"></div>
+
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="paginaInicial.html">Página Inicial</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="../tcc-20230830T183459Z-001/tcc/pagAnimais.html">Animais para adoção</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">Transparência financeira</a>
+                      </li>
+                  </ul>
+                        </button>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </header>
+    <h1 id="tituloAnimais">Animais para adoção responsável ou lar temporário</h1>
+    <div class="animais">
+      <div class="animal">
+        <img src="img/fred.jpg" id="imgAnimal" onclick="redirecionarFred()" />
+        <!-- <div id="descAnimal">
+            <p>Nome: Fred</p>
+            <p>Porte: pequeno</p>
+            <p>Peso: 3kg</p>
+            <p>Raça: pinscher</p>
+        </div> -->
+      </div>
+
+      <div class="animal">
+        <img
+          src="img/pinhao.jpg"
+          id="imgAnimal"
+          onclick="redirecionarPinhao()"
+        />
+        <!-- <div id="descAnimal">
+                <p>Nome: Pinhão</p>
+                <p>Porte: pequeno</p>
+                <p>Peso: 2kg</p>
+                <p>Raça: pinscher</p>
+            </div> -->
+      </div>
+
+      <div class="animal">
+        <img src="img/cacau.jpg" id="imgAnimal" onclick="redirecionarCacau()" />
+        <!-- <div id="descAnimal">
+                    <p>Nome: Cacau</p>
+                    <p>Porte: médio</p>
+                    <p>Peso: 7kg</p>
+                    <p>Raça: indefinida</p>
+                </div> -->
+      </div>
+
+      <div class="animal">
+        <img src="img/mel.jpg" id="imgAnimal" onclick="redirecionarMel()" />
+        <!-- <div id="descAnimal">
+                        <p>Nome: Mel</p>
+                        <p>Porte: médio</p>
+                        <p>Peso: 10kg</p>
+                        <p>Raça: indefinida</p>
+                    </div> -->
+      </div>
+
+      <div class="animal">
+        <img
+          src="img/WhatsApp Image 2023-08-24 at 08.16.50.jpeg"
+          id="imgAnimal"
+          onclick="redirecionarMaggie()"
+        />
+      </div>
+
+      <div class="animal">
+        <img
+          src="img/WhatsApp Image 2023-08-24 at 08.16.51.jpeg"
+          id="imgAnimal"
+          onclick="redirecionarRabito()"
+        />
+      </div>
+
+      <div class="animal">
+        <img
+          src="img/WhatsApp Image 2023-08-24 at 08.16.53.jpeg"
+          id="imgAnimal"
+          onclick="redirecionarTitico()"
+        />
+      </div>
+
+      <div class="animal">
+        <img
+          src="img/WhatsApp Image 2023-08-24 at 08.12.44.jpeg"
+          id="imgAnimal"
+          onclick="redirecionarBelinha()"
+        />
+      </div>
+
+      <div class="animal">
+        <img
+          src="img/WhatsApp Image 2023-08-30 at 14.21.44.jpeg"
+          id="imgAnimal"
+          onclick="redirecionarAurelio()"
+        />
+      </div>
+    </div>
+    <footer>
+      <div class="corSobreNos">
+              <h2 id="contato" style="text-align: center;">Entre em contato com a ONG para adotar ou oferecer lar temporário</h2>
+              <div id="texto" style="text-align: justify;">
+                  <p id="p1"> Telefone celular: +55 (47) 99999-9999 </p>
+                  <p>E-mail: tccmc@ifc.edu.br</p>
+  
+              </div>
+      </div>
+  </footer>
+ <!-- <footer>
+    <h3>Entre em contato com a ONG para adotar ou oferecer lar temporário</h3>
+    <p>Telefone celular: +55 (47) 99999-9999</p>
+    <p>E-mail: tccmc@ifc.edu.br</p>
+</footer> -->
+    <script src="pagAnimais.js"></script>
+  </body>
+</html>

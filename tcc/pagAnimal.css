@@ -1,0 +1,123 @@
+#imgAnimal {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, steelblue 0%, rgb(167, 201, 230) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: floralwhite;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: steelblue;
+}
+
+#iconeCoracao {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#iconePegada {
+  width: 50px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#iconeCao {
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#iconeGato {
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.escrito {
+  clear: both;
+}
+
+#segunda {
+  padding-top: 7px;
+}
+
+#iconeMF {
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#iconeRaca {
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+body {
+    background-color: #f0fcff;
+}
+
+.logo {
+    float: left;
+}
+
+#titulo {
+    font-family: 'Barriecito', cursive;
+    margin-top: 15%;
+    font-size: 300%;
+}
+
+#nome {
+    font-family: 'Barriecito', cursive;
+    float: right;
+    margin-top: 0.5cm;
+    margin-right: 13cm;
+    color: rgb(93, 148, 194);
+}
+
+
+.clear {
+    clear: both;
+}
+

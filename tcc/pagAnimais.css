@@ -1,0 +1,120 @@
+/* .animal{
+    clear:both;
+    width: 33%;
+    display: inline-block;
+
+} */
+
+/* .animal{
+    position: relative;
+} */
+
+ #imgAnimal{
+     float:left; 
+    width: 100%; 
+    height: 300px;
+    width: 300px; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+ } 
+
+/* #descAnimal{
+    /* float: right; */
+    /* align-items: center; */
+    /* margin-right: 150px;
+    margin-top: 50px;
+} */ 
+
+body{
+    background-color: rgb(240,252,255);
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: steelblue;
+}
+
+/* footer{
+    position: absolute;
+    background-color: steelblue;
+} */
+
+#texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+#contato {
+    font-family: 'Barriecito', cursive;
+    color: #00559b;
+    font-size: 200%;
+    padding-top: 40px;
+    margin-top: 40px;
+
+}
+
+.animais{
+    margin-left: 160px;
+}
+
+h1{
+    text-align: center;
+}
+
+#tituloAnimais{
+    margin-top: 200px;
+}
+header {
+    background-color: rgb(240, 252, 255);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgb(193, 193, 223);
+}
+
+.container-fluid {
+    background-color: rgb(93, 148, 194);
+}
+
+.nav-link {
+    font-family: 'Barriecito', cursive;
+    font-family: 'Concert One', cursive;
+    color: white;
+    margin-left: 2em;
+}
+
+.d-flex {
+    background-color: rgb(93, 148, 194);
+}
+
+.navbar {
+    padding-bottom: 0;
+}
+
+#titulo {
+    color: rgb(93, 148, 194);
+    align-items: center;
+}
+
+#principal {
+    width: 60%;
+    margin: auto;
+    margin-top: 10em;
+
+}
+
+#navbarSupportedContent {
+    font-family: 'Barriecito', cursive;
+    font-family: 'Concert One', cursive;
+    margin-left: 17.4%;
+    font-size: 150%;
+}
+
+.dropdown-item {
+    font-size: 1.2em;
+}
